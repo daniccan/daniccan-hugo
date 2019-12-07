@@ -11,6 +11,10 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_AUTH_SECRET
-  local-dir: public
+  local_dir: public
+  repo: daniccan/daniccan.github.io
+  target_branch: master
+  email: $USER_EMAIL
+  name: $USER_NAME
   on:
     branch: master
