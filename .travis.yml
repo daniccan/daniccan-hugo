@@ -1,10 +1,8 @@
-language: go
-
-go:
-  - master
+dist: xenial
 
 install:
-  - go get github.com/spf13/hugo
+  - wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_extended_0.55.6_Linux-64bit.deb
+  - sudo dpkg -i /tmp/hugo.deb
 
 script:
   - hugo
@@ -13,6 +11,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_AUTH_SECRET
-  keep_history: true
+  local-dir: public
   on:
     branch: master
