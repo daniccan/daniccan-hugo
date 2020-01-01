@@ -2,6 +2,7 @@ baseURL = "https://daniccan.github.io/"
 languageCode = "en-us"
 title = "Daniccan Veerapandian"
 theme = "m10c"
+enableEmoji = true
 
 [params]
   author = "Daniccan"
