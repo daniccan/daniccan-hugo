@@ -4,11 +4,12 @@ date: 2020-01-15T00:00:00+05:30
 draft: false
 author: "Daniccan"
 categories:
-  - Tutorial
+  - VBA
 tags:
   - VBA
   - Macro
   - Excel
+  - Tutorial
 ---
 
 I recently worked on a project which involved creating a macro in Microsoft Excel. Macros can be easily created without any programming knowledge by [recording a macro](https://support.office.com/en-us/article/Quick-start-Create-a-macro-741130CA-080D-49F5-9471-1E5FB3D581A8). However, recording macros do not help with advanced or customized use cases. VBA is used in such cases where you can [code the macro](https://www.excel-easy.com/vba/create-a-macro.html) to suit your requirement.
@@ -146,4 +147,4 @@ Once imported, any of the above implementations prove to be a good replacement o
 
 ## Conclusion
 
-Data types that deal with collection of objects are important for any programming language. While collections such as Arrays or Lists are used to deal with multiple entries of single objects, key-value pair data structures are equally necessary to pair objects together and for lookups. It is a good thing I came across the Dictionary data type, without which I wouldn't have been able to complete my macro project.
+Data types that deal with collection of objects are important for any programming language. While collections such as Arrays or Lists are used to deal with multiple entries of single objects, key-value pair data structures are equally necessary to pair objects together and for lookups.
