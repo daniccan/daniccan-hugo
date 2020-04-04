@@ -4,7 +4,7 @@ date: 2020-01-29T00:00:00+05:30
 draft: false
 author: "Daniccan"
 categories:
-  - ELK
+  - Kibana
 tags:
   - Elasticsearch
   - Kibana
@@ -28,7 +28,7 @@ Along with the set of default features that Kibana has, it also supports plugins
 
 The [installation](https://www.elastic.co/guide/en/kibana/7.x/install-plugin.html) of Kibana plugins is straight-forward with the use of a simple command.
 
-```
+```sh
 bin/kibana-plugin install <package name or URL>
 ```
 

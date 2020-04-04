@@ -4,7 +4,7 @@ date: 2020-01-01T00:00:00+05:30
 draft: false
 author: "Daniccan"
 categories:
-  - Thoughts
+  - My Thoughts
 tags:
   - 2020
   - Goals

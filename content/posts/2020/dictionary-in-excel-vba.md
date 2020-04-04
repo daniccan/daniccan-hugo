@@ -32,7 +32,7 @@ To add an reference,
 
 Now, the Dictionary can be initialized as follows
 
-```
+```vb
 Dim dict As Dictionary
 Set dict = New Dictionary
 ```
@@ -43,7 +43,7 @@ This type of Dictionary creation does not require adding an reference before usa
 
 The Dictionary can be initialized as follows
 
-```
+```vb
 Dim dict As Object
 Set dict = CreateObject("Scripting.Dictionary")
 ```
@@ -54,13 +54,13 @@ An entry can be added to the Dictionary as follows
 
 **Syntax**
 
-```
+```vb
 dict.Add Key, Item
 ```
 
 **Examples**
 
-```
+```vb
 dict.Add "Name", "John"
 dict.Add Key:="Age", Item:=25
 ```
@@ -73,38 +73,38 @@ An Item can be read from the Dictionary using its Key as follows
 
 **Syntax**
 
-```
+```vb
 dict.Item(Key)
 ```
 
 **Examples**
 
-```
-dict.Item("Name") ## Returns "John"
+```vb
+dict.Item("Name") 'Returns "John"
 ```
 
 The list of Keys and Items can be read from the Dictionary as follows
 
 **Syntax**
 
-```
-dict.Keys ## Returns the list of Keys
-dict.Items ## Returns the list of Items
+```vb
+dict.Keys 'Returns the list of Keys
+dict.Items 'Returns the list of Items
 ```
 
 A Key can be checked for existence in the Dictionary as follows
 
 **Syntax**
 
-```
-dict.Exists(Key) ## Returns Boolean
+```vb
+dict.Exists(Key) 'Returns Boolean
 ```
 
 **Examples**
 
-```
-dict.Exists("Name") ## Returns true
-dict.Exists("Salary") ## Returns false
+```vb
+dict.Exists("Name") 'Returns true
+dict.Exists("Salary") 'Returns false
 ```
 
 ## Update a Dictionary
@@ -113,13 +113,13 @@ An Item can be updated in the Dictionary using its Key as follows
 
 **Syntax**
 
-```
+```vb
 Set dict.Item(Key) = Item
 ```
 
 **Examples**
 
-```
+```vb
 Set dict.Item("Age") = 26
 ```
 
@@ -129,9 +129,9 @@ Item(s) can be removed from the Dictionary as follows
 
 **Syntax**
 
-```
-dict.Remove(Key) ## Remove entry based on Key
-dict.RemoveAll ## Remove all entries
+```vb
+dict.Remove(Key) 'Remove entry based on Key
+dict.RemoveAll 'Remove all entries
 ```
 
 ## VBA Dictionary in Office for Mac
