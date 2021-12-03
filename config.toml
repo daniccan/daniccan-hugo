@@ -1,0 +1,30 @@
+baseURL = "https://daniccan.github.io/"
+languageCode = "en-us"
+title = "Daniccan Veerapandian"
+theme = "m10c"
+enableEmoji = true
+
+[params]
+  author = "Daniccan"
+  description = "Lead Engineer | CyberSecurity | Integrations | Big Data | Cloud | DevOps"
+  avatar = "https://avatars2.githubusercontent.com/u/10397300?s=400&u=8404a1b4db6304e12a87a9ce625ec004c4600171&v=4"
+
+  [[params.social]]
+    icon = "linkedin"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/daniccan-veerapandian-49921650/"
+
+  [[params.social]]
+    icon = "twitter"
+    name = "twitter"
+    url = "https://twitter.com/PassionDani"
+
+  [[params.social]]
+    icon = "github"
+    name = "github"
+    url = "https://github.com/daniccan"
+
+  [[params.social]]
+    icon = "stackoverflow"
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/2764789/daniccan"

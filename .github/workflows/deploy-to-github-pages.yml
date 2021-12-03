@@ -1,0 +1,20 @@
+name: Deploy my Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@master
+      - name: Build & Deploy the site
+        uses: benmatselby/hugo-deploy-gh-pages@master
+        env:
+          TARGET_REPO: daniccan/daniccan.github.io
+          TOKEN: ${{ secrets.TOKEN }}
+          CNAME: daniccan.github.io
