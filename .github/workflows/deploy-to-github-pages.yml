@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@master
+        uses: actions/checkout@v1
+        with:
+          submodules: true
       - name: Build & Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
