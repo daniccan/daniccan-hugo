@@ -17,6 +17,6 @@ jobs:
       - name: Build & Deploy the site
         uses: benmatselby/hugo-deploy-gh-pages@master
         env:
+          HUGO_EXTENDED: true
           TARGET_REPO: daniccan/daniccan.github.io
           TOKEN: ${{ secrets.TOKEN }}
-          CNAME: daniccan.github.io
