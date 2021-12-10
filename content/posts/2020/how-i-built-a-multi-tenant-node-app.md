@@ -6,7 +6,7 @@ author: "Daniccan"
 categories:
   - My Experiences
 tags:
-  - Multitenant
+  - Multitenancy
   - NodeJS
   - MySQL
   - Sequelize

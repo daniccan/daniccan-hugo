@@ -9,7 +9,6 @@ tags:
   - VBA
   - Macro
   - Excel
-  - Tutorial
 ---
 
 I recently worked on a project which involved creating a macro in Microsoft Excel. Macros can be easily created without any programming knowledge by [recording a macro](https://support.office.com/en-us/article/Quick-start-Create-a-macro-741130CA-080D-49F5-9471-1E5FB3D581A8). However, recording macros do not help with advanced or customized use cases. VBA is used in such cases where you can [code the macro](https://www.excel-easy.com/vba/create-a-macro.html) to suit your requirement.
